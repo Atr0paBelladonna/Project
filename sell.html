@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--The following lines are comments
+    Author: Zoe Nicholson S00153389
+    Date Created: 2/3/2022
+     -->
+
+
+<html lang="en"> <!-- Declare primary language for each webpage-->
+
+    <head>
+        <meta charset="utf-8"/><!--8 bit character encoding capable of encoding all possible characters-->
+        <meta name="description" content="Kirby Car Dismantlers">
+        <meta name="Keywords" content="Car, Dismantlers, Scrap yard">
+        <meta name="Author" content="Zoe Nicholson">
+        <title>Kirby Car Dismantlers</title>
+        <link rel="stylesheet" type="text/css" href="style/mainstyle.css"/>
+        <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+
+        <style>
+                    section
+                    {
+                        margin: 15px 200px;
+                        padding: 20px;
+                        border: #ffde59 solid 2px;
+                        min-height: 400px;
+                    }
+        </style>
+
+    </head>
+
+    <body><!-- Body Tag start of Body section display on screen -->
+
+        <header>
+            <img style=float:left src="images/carlogo.png" height="80px" alt="Logo" >
+            <h1>Kirby Car Dismantlers</h1>
+            
+        </header>
+
+        <nav>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="parts.html">Parts</a></li>
+                <li><a  href="cars.html">Cars</a></li>
+                <li class="current"><a  href="sell.html">Sell</a></li>
+                <li ><a  href="demo.html">Scrapping Demo</a></li>
+            </ul>
+        </nav>
+
+        <main> <!-- Main wrapper tag that goes around your min content-->
+            <h2 id="top" style="text-align: center;">Sell your part/vehicle</h2>
+            <section>
+                <h3>Please enter the following information to get a quote:</h3>
+                <form action="http://foo.com" method="get">
+
+                    <label for="first_name">First Name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required required placeholder="John"> <br>
+
+                    <label for="last_name">Last Name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required placeholder="Doe"> <br>
+
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@example.com"> <br>
+
+                    <label for="number">Number:<span class="required">*</span></label>
+                    <input type="phonenumber" name="number" id="number" required placeholder="0871234567"> <br>
+
+                    <label for="item">Item for Sale:</label>
+                    <input type="radio" id="item" name="item" value="part">Part
+                    <input type="radio" id="item" name="item" value="vehicle(working order)">Vehicle(working order)
+                    <input type="radio" id="item" name="item" value="vehicle(non working order)" checked >Vehicle(non working order) <br>
+
+                    <label for="message">Description:</label>
+                    <textarea cols="50" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters. Enter Description of Item for Sale" data-maxlength="200"></textarea><br>
+
+                    <input type="submit" name="submit" id="button" value="submit">
+                    <input type="reset" name="reset" id="reset">                
+
+                </form>
+                <p style="margin-left: 138px;"><span class="required">*</span><em> indicates a required field</em></p>
+                <p><a href="#top">Go To Top</a></p>
+
+            </section>
+
+
+
+
+        </main>
+        
+        <footer> <!--Footer   Grouping of content for the bottom of the screen and and will need css to place at the bottom-->
+            <ul>
+                <li><a  href="https://www.facebook.com/g.kirbycardismantling"><img src="images/fblogo.png" height="20px" alt="Facebook Logo"></a></li>
+                <li><a  href="kirbycardismantling@gmail.com"><img src="images/emaillogo.png" height="20px" alt="Email Logo"></a></li>
+            </ul>
+
+            <p> &copy; 2022  Kirby Car Dismantlers (This is a College Project)</p>
+
+        </footer>
+    </body>
+</html>

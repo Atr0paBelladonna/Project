@@ -1,0 +1,162 @@
+body
+{
+    background-color: #59d4fa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+header
+{
+ text-align: center;
+ color: white;
+ padding-bottom: 22px;
+
+}
+h4
+{
+    text-align: center;
+}
+nav
+{
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0),#ffde59);
+    text-align: center;
+}
+nav ul li
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border:2px Solid #59d4fa;
+    border-radius: 10px;
+}
+
+.current
+{
+    background-color: #ffde59;
+}
+
+a:link 
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited 
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: #ffde59;
+
+}
+main
+{
+    color: white;
+}
+
+aside
+{
+    float: right;
+}
+
+footer
+{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0),#ffde59);
+    padding: 10px; 
+    position: relative;   
+}
+
+footer ul li
+{
+
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+.homeblock
+{
+    min-height: 500px;
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    border:2px Solid #ffde59;
+    text-align: center;
+}
+.sale
+{
+    max-height: 600px;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border:2px Solid #ffde59;
+    text-align: center;
+}
+
+.parts
+{
+    max-height: 600px;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border:2px Solid #ffde59;
+    text-align: center;
+}
+
+.required
+{
+    font-weight: bold;
+    color: red;
+}
+label
+{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input
+{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 300px;    
+}
+
+input[type="checkbox"]
+{
+    width: 15px;
+}
+
+input[type="radio"]
+{
+    width: 10px;
+}
+
+#button, #reset
+{
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;                
+}
+.col
+{
+    column-count: 2;
+    column-rule: 3px solid white;
+    column-gap: normal;
+    text-align: left;
+}
